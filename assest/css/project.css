@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Poppins", sans-serif;
+    background-color: rgb(236, 230, 230);
+    font-size: 16px;
+
+}
+ /* start of head style */
+.head{
+    padding-top:3.5rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.7rem;
+}
+.head p:first-of-type{
+    font-size: 2rem;
+    color:rgb(120, 117, 117) ;
+    
+}
+p{
+    color: #a3a5ae;
+    font-size: 1rem;
+}
+ /* end of head style */
+
+ /* start of container style */
+.container{
+    padding: 0rem 7rem 0rem 7rem ;
+    display: flex;
+    gap: 1.7rem;
+    justify-content: center;
+    
+    
+    
+
+}
+.card{
+    width: 21rem;
+    height: 13rem;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0rem 1rem 2rem 0rem #bdbfc7;
+    position: relative;
+    
+    
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.card1{
+    border-top: 0.2rem solid rgb(69, 211, 211);
+    margin-top: 7rem;
+
+
+
+}
+.card2{
+
+    border-top: 0.2rem solid rgb(234, 83, 83);
+    
+}
+.card3{ 
+    border-top: 0.2rem solid #FCAF4A;
+
+}
+.card4{
+    border-top: 0.2rem solid rgb(84, 158, 242);
+    margin-top: 7rem;
+}
+h3{
+    padding: 1.5rem 0rem 0.8rem 1.5rem;
+    color: #4c4e61;
+}
+.card p{
+    margin-left: 1.5rem;
+}
+i{
+    
+    position: absolute;
+    right: 21px;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+ /* end of container style */
+
+ /* responsave */
+ @media screen and (max-width:768px){
+    .container{
+        padding: 0rem;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .card1{
+        margin-top: 0rem;
+    }
+   .card4 ,.card4{
+    margin-top: 0rem;
+   }
+   .head p:first-of-type{
+    font-size: 1.5rem;
+   }
+   h1{
+    font-size: 1.5rem;
+   }
+
+}
+
